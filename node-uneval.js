@@ -35,7 +35,7 @@
         return sys.inspect(obj);  
     }     
 
-    // special objects    
+    // special data types
     if (obj instanceof Array)
       return "[" + obj.map(function(o) { return uneval(o, ctx); }).join(",") + "]";
     
