@@ -1,6 +1,8 @@
 
+It works, but please be gentle :)
+
 TODO
 ====
 
-* Number stuffs (NaN, Infinity, -Infinity etc. etc.)
+* Lots more tests!
 
