@@ -24,6 +24,13 @@
     }
     
     // special objects
+    if (obj === null)
+      return "null";
+    if (obj === undefined)
+      return "undefined";
+    
+    // TODO: NaN Infiny -Infinity???
+    
     if (obj instanceof Array)
       return "[" + obj.map(function(o) { return uneval(o, ctx); }).join(",") + "]";
     
@@ -55,6 +62,9 @@
       null,
       undefined,
       0xFFFF,
+      [],
+      [1,2,3],
+      [null, undefined, null, undefined, "hello"],
       { 'x': 'y' },
       { 'x': { 'nest': '-ed', 'y': 'z' } },
       //circular,
