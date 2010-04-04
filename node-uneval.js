@@ -15,22 +15,27 @@
       
     ctx[obj] = true;
       
+    // special objects
+    if (obj === null)
+      return "null";
+    if (obj === undefined)
+      return "undefined";
+    if (isNaN(obj))
+      return "NaN";
+    if (obj === Infinity)
+      return "Infinity";
+    if (obj === -Infinity)
+      return "-Infinity";
+
     // atoms
     switch (objType) {
       case 'function': return "(" + obj.toString() + ")";
       case 'string':
       case 'number':
         return sys.inspect(obj);  
-    }
-    
-    // special objects
-    if (obj === null)
-      return "null";
-    if (obj === undefined)
-      return "undefined";
-    
-    // TODO: NaN Infiny -Infinity???
-    
+    }     
+
+    // special objects    
     if (obj instanceof Array)
       return "[" + obj.map(function(o) { return uneval(o, ctx); }).join(",") + "]";
     
