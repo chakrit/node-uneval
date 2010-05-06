@@ -20,7 +20,7 @@
       return "null";
     if (obj === undefined)
       return "undefined";
-    if (isNaN(obj))
+    if (obj !== obj) // isNaN does type coercion, so can't use that.
       return "NaN";
     if (obj === Infinity)
       return "Infinity";
