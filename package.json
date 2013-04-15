@@ -1,0 +1,28 @@
+{
+  "name": "uneval",
+  "description": "Convert objects into code. You probly shouldn't use this",
+  "version": "0.1.0",
+
+  "repository": {
+    "url": "git://github.com/subtleGradient/node-uneval.git"
+  },
+  
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test.js"
+  },
+  
+  "dependencies": {
+    
+  },
+  "devDependencies": {
+    "tap": "~0.2"
+  },
+
+  "author": "Chakrit Wichian",
+  "contributors": [
+    "Chakrit Wichian",
+    "Thomas Aylott <oblivious@subtlegradient.com> (http://subtlegradient.com)"
+  ],
+  "license": "MIT"
+}
