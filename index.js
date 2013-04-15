@@ -32,8 +32,8 @@
       case 'function': return "(" + obj.toString() + ")";
       case 'string':
       case 'number':
-        return sys.inspect(obj);  
-    }     
+        return sys.inspect(obj);
+    }
 
     // special data types
     if (obj instanceof Array)
