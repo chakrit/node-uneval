@@ -7,13 +7,15 @@
 
   var uneval = function (obj, ctx) {
     var objType = typeof obj;
+    var hash = Object.prototype.toString.call(obj) + obj
       
     // circular reference check
     ctx = ctx || { };
-    if (ctx[obj])
+    if (ctx[hash])
       throw "Circular references detected while uneval()-ing.";
+    
       
-    ctx[obj] = true;
+    ctx[hash] = true;
       
     // special objects
     if (obj === null)

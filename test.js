@@ -1,6 +1,26 @@
 var t = require('tap')
 var uneval = require('./index').uneval
 
+t.test('array with one item', function(t){
+  
+  t.is(uneval([]), '[]')
+  t.doesNotThrow(function(){
+    t.is(uneval([1,2,3]), '[1,2,3]')
+  })
+  t.doesNotThrow(function(){
+    t.is(uneval([1]), '[1]')
+  })
+  t.doesNotThrow(function(){
+    t.is(uneval([function(){}]), '[(function (){})]')
+  })
+  t.doesNotThrow(function(){
+    t.is(uneval([{}]), '[({})]')
+  })
+  
+  t.end()
+})
+
+
 t.test('test all the things', function(t){
   var a = { 'value': {} };
   var b = { 'value': {} };
