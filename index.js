@@ -48,7 +48,7 @@
     for (key in obj)
       results.push(uneval(key, ctx) + ":" + uneval(obj[key], ctx));
       
-    return "{" + results.join(",") + "}";
+    return "({" + results.join(",") + "})";
   }
   
   exports.uneval = uneval;
