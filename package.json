@@ -1,6 +1,6 @@
 {
   "name": "uneval",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "uneval approximation for node.js/v8. convert objects to code. don't use if you don't know all the things that could go wrong with this.",
   "main": "index.js",
   "dependencies": {},
