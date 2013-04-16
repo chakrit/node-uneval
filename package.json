@@ -18,6 +18,10 @@
     "uneval"
   ],
   "author": "Chakrit Wichian <service@chakrit.net> (http://chakrit.net)",
+  "contributors": [
+    "Chakrit Wichian <service@chakrit.net> (http://chakrit.net)",
+    "Thomas Aylott <oblivious@subtlegradient.com> (http://subtlegradient.com)"
+  ],
   "license": "Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)",
   "readmeFilename": "README.md",
   "gitHead": "a8f5de72790976b8a2d5be55938abf6c784741e8"
