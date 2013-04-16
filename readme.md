@@ -1,3 +1,6 @@
+[![Build
+Status](https://travis-ci.org/chakrit/node-uneval.png)](https://travis-ci.org/chakrit/node-uneval)
+
 # node-uneval
 
 Approximation of uneval for node.js/v8. Convert objects into code. Do **not** use this
