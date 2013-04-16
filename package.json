@@ -1,0 +1,24 @@
+{
+  "name": "uneval",
+  "version": "0.1.0",
+  "description": "uneval approximation for node.js/v8. convert objects to code. don't use if you don't know all the things that could go wrong with this.",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "tap": "~0.4.1"
+  },
+  "scripts": {
+    "test": "tap test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chakrit/node-uneval.git"
+  },
+  "keywords": [
+    "uneval"
+  ],
+  "author": "Chakrit Wichian <service@chakrit.net> (http://chakrit.net)",
+  "license": "Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)",
+  "readmeFilename": "README.md",
+  "gitHead": "a8f5de72790976b8a2d5be55938abf6c784741e8"
+}
