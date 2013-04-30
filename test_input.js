@@ -16,16 +16,20 @@ module.exports =
 , 'ASDF'
 , 'with " quotes'
 , "with ' quotes"
+, true
+, false
 , null
 , undefined
 , 0xFFFF // hex representation - same file only
 , []
 , [1, 2, 3]
+, [true, false]
 , [null, undefined, null, undefined, "hello"]
 , { 'x': 'y' }
 , { 'x': { 'nest': '-ed', 'y': 'z' } }
 , { 'x': 'a', 'func': (function() { }) }
 , { a: undefined, b: null }
+, { a: true, b: false }
 , function() { }
 , function() { return globalVar; }
 , function(a) { return a * a; }
