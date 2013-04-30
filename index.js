@@ -36,6 +36,7 @@ module.exports = (function(undefined) {
         return wrapRoot(obj.toString());
       case 'string':
       case 'number':
+      case 'boolean':
         return util.inspect(obj);
     }
 
