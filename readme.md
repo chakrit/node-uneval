@@ -1,5 +1,4 @@
-# ⚠️
-Ownership of package __**[`uneval`](https://www.npmjs.com/package/uneval)**__ has been transferred over to [@TomerAberbach](https://github.com/TomerAberbach) who will continue its development.
+# ⚠️ Ownership of package __**[`uneval`](https://www.npmjs.com/package/uneval)**__ has been transferred over to [@TomerAberbach](https://github.com/TomerAberbach) who will continue its development.
 
 ---
 
