@@ -1,3 +1,8 @@
+# ⚠️
+Ownership of package __**[`uneval`](https://www.npmjs.com/package/uneval)**__ has been transferred over to [@TomerAberbach](https://github.com/TomerAberbach) who will continue its development.
+
+---
+
 [![Build
 Status](https://travis-ci.org/chakrit/node-uneval.png)](https://travis-ci.org/chakrit/node-uneval)
 
